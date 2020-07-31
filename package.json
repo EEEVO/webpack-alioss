@@ -1,0 +1,31 @@
+{
+  "name": "webpack-aliyun-oss-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "webpack": "^4.43.0"
+  },
+  "dependencies": {
+    "ali-oss": "^6.7.0",
+    "glob": "^7.1.6",
+    "rxjs": "^6.5.5"
+  },
+  "devDependencies": {
+    "@types/ali-oss": "^6.0.5",
+    "@types/glob": "^7.1.1",
+    "@types/webpack": "^4.41.12",
+    "es6-promise-pool": "^2.5.0",
+    "ts-node": "^8.9.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0"
+  }
+}
